@@ -19,14 +19,7 @@ mongoose
     console.error("Error connecting to MongoDB:", err);
   });
 
-// mongoose
-// .connect('mongodb+srv://vavaldasjaiwanth:jaiv9164@mern-estate.wpslkfy.mongodb.net/?retryWrites=true&w=majority')
-// .then(()=>{
-//     console.log("Connected to MongoDB!!");
-// })
-// .catch((err)=>{
-//     console.log(err);
-// })
+
 
 const app=express();
 
